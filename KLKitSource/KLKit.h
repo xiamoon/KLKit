@@ -17,5 +17,10 @@
 #import "UIScrollView+KLKit.h"
 #import "UITextView+KLKit.h"
 #import "UITableView+KLKit.h"
+#import "UIViewController+KLKit.h"
+#import "NSString+KLKit.h"
+#import "NSArray+KLKit.h"
+#import "NSDictionary+KLKit.h"
+#import "YYTextView+KLKit.h"
 
 #endif /* KLKit_h */

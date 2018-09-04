@@ -14,7 +14,10 @@
 + (UILabel *)kl_defaultAlignCenterLabelWithY:(CGFloat)y {
     UILabel *label = [UILabel new];
     UIScreen *screen = [UIScreen mainScreen];
-    label.kl_frame(0, y, screen.bounds.size.width, 20).kl_textAlignment(NSTextAlignmentCenter).kl_text(@"Label").kl_textColor([UIColor blackColor]);
+    label.kl_frame(0, y, screen.bounds.size.width, 20)
+    .kl_textAlignment(NSTextAlignmentCenter)
+    .kl_text(@"Label")
+    .kl_textColor([UIColor blackColor]);
     return label;
 }
 
@@ -28,6 +31,13 @@
 - (id<KLProperty> (^)(NSString *))kl_text {
     return ^id<KLProperty> (NSString *text) {
         self.text = text;
+        return self;
+    };
+}
+
+- (id<KLProperty> (^)(NSAttributedString *))kl_attributedText {
+    return ^id<KLProperty> (NSAttributedString *attributedText) {
+        self.attributedText = attributedText;
         return self;
     };
 }
@@ -91,6 +101,13 @@
 - (id<KLProperty> (^)(NSLineBreakMode))kl_lineBreakMode {
     return ^id<KLProperty> (NSLineBreakMode mode) {
         self.lineBreakMode = mode;
+        return self;
+    };
+}
+
+- (id<KLProperty> (^)(NSInteger))kl_numberOfLines {
+    return ^id<KLProperty> (NSInteger lines) {
+        self.numberOfLines = lines;
         return self;
     };
 }

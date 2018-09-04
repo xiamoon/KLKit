@@ -16,10 +16,10 @@ id<KLProperty> (^_name_)(argType arg)
 @property (nonatomic, strong, readonly) KLBlockDefine(_name_, argType)
 
 typedef NS_OPTIONS(NSUInteger, KLControlState) {
-    Normal       = 0,
-    Highlighted  = 1 << 0,
-    Disabled     = 1 << 1,
-    Selected     = 1 << 2,
+    KLNormal       = 0,
+    KLHighlighted  = 1 << 0,
+    KLDisabled     = 1 << 1,
+    KLSelected     = 1 << 2,
 };
 
 typedef enum : NSInteger {
@@ -36,6 +36,7 @@ typedef enum : NSInteger {
 
 @property (nonatomic, strong, readonly) id<KLProperty> (^kl_frame)(CGFloat x, CGFloat y, CGFloat w, CGFloat h);
 @property (nonatomic, strong, readonly) id<KLProperty> (^kl_center)(CGFloat x, CGFloat y);
+@property (nonatomic, strong, readonly) id<KLProperty> (^kl_size)(CGFloat w, CGFloat h);
 
 KLBlockPropertyDefine(kl_bgColor, UIColor *);
 KLBlockPropertyDefine(kl_bgColorHex, u_int64_t);
@@ -44,6 +45,10 @@ KLBlockPropertyDefine(kl_borderWidth, CGFloat);
 KLBlockPropertyDefine(kl_borderColor, UIColor *);
 KLBlockPropertyDefine(kl_borderColorHex, u_int64_t);
 KLBlockPropertyDefine(kl_contentMode, UIViewContentMode);
+KLBlockPropertyDefine(kl_shadowOpacity, CGFloat);
+KLBlockPropertyDefine(kl_shadowOffset, CGSize);
+KLBlockPropertyDefine(kl_shadowColor, UIColor *);
+
 
 @property (nonatomic, strong, readonly) id<KLProperty> and;
 KLBlockPropertyDefine(kl_addToView, id);
@@ -51,6 +56,7 @@ KLBlockPropertyDefine(kl_addToView, id);
 
 /** UILabel Property */
 KLBlockPropertyDefine(kl_text, NSString *);
+KLBlockPropertyDefine(kl_attributedText, NSAttributedString *);
 KLBlockPropertyDefine(kl_textColor, UIColor *);
 KLBlockPropertyDefine(kl_textColorHex, u_int64_t);
 
@@ -62,6 +68,7 @@ KLBlockPropertyDefine(kl_fontSizeBold, CGFloat);
 KLBlockPropertyDefine(kl_textAlignment, NSTextAlignment);
 KLBlockPropertyDefine(kl_lines, CGFloat);
 KLBlockPropertyDefine(kl_lineBreakMode, NSLineBreakMode);
+KLBlockPropertyDefine(kl_numberOfLines, NSInteger);
 
 
 /** UIButton Property */
@@ -99,6 +106,7 @@ KLBlockPropertyDefine(kl_tableDelegate, id<UITableViewDelegate>);
 KLBlockPropertyDefine(kl_tableDataSource, id<UITableViewDataSource>);
 KLBlockPropertyDefine(kl_tableHeader, UIView *);
 KLBlockPropertyDefine(kl_tableFooter, UIView *);
+KLBlockPropertyDefine(kl_showSeparator, BOOL );
 KLBlockPropertyDefine(kl_separatorColor, UIColor *);
 KLBlockPropertyDefine(kl_separatorColorHex, u_int64_t);
 KLBlockPropertyDefine(kl_separatorInset, UIEdgeInsets);

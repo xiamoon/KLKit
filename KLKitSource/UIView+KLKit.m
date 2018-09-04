@@ -29,6 +29,13 @@
     };
 }
 
+- (id<KLProperty> (^)(CGFloat, CGFloat))kl_size {
+    return ^id<KLProperty> (CGFloat w, CGFloat h) {
+        self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, w, h);
+        return self;
+    };
+}
+
 - (id<KLProperty> (^)(UIColor *color))kl_bgColor {
     return ^id<KLProperty> (UIColor *color) {
         self.backgroundColor = color;
@@ -77,6 +84,27 @@
 - (id<KLProperty> (^)(UIViewContentMode))kl_contentMode {
     return ^id<KLProperty> (UIViewContentMode contentMode) {
         self.contentMode = contentMode;
+        return self;
+    };
+}
+
+- (id<KLProperty> (^)(CGFloat))kl_shadowOpacity {
+    return ^id<KLProperty> (CGFloat opacity) {
+        self.layer.shadowOpacity = opacity;
+        return self;
+    };
+}
+
+- (id<KLProperty> (^)(CGSize))kl_shadowOffset {
+    return ^id<KLProperty> (CGSize size) {
+        self.layer.shadowOffset = size;
+        return self;
+    };
+}
+
+- (id<KLProperty> (^)(UIColor *))kl_shadowColor {
+    return ^id<KLProperty> (UIColor *color) {
+        self.layer.shadowColor = color.CGColor;
         return self;
     };
 }

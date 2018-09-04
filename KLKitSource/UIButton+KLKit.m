@@ -14,16 +14,48 @@ const void *contentSpacingKey = "com.kaleo.klkit.contentSpacingKey";
 
 @implementation UIButton (KLKit)
 
++ (UIButton *)customButton {
+    return [UIButton buttonWithType:UIButtonTypeCustom];
+}
+
 - (id<KLProperty>)kl_default {
     return self.kl_frame(20, 50, 80, 30)
     .kl_bgColor([UIColor orangeColor])
-    .kl_btnTitle(@"Button", Normal);
+    .kl_btnTitle(@"Button", KLNormal);
 }
 
 - (id<KLProperty> (^)(NSString *, KLControlState))kl_btnTitle {
     return ^id<KLProperty> (NSString *title, KLControlState state) {
         UIControlState _state = (UIControlState)state;
         [self setTitle:title forState:_state];
+        return self;
+    };
+}
+
+- (id<KLProperty> (^)(UIFont *))kl_font {
+    return ^id<KLProperty> (UIFont *font) {
+        self.titleLabel.font = font;
+        return self;
+    };
+}
+
+- (id<KLProperty> (^)(CGFloat))kl_fontSize {
+    return ^id<KLProperty> (CGFloat fontSize) {
+        self.titleLabel.font = [UIFont systemFontOfSize:fontSize];
+        return self;
+    };
+}
+
+- (id<KLProperty> (^)(CGFloat))kl_fontSizeMedium {
+    return ^id<KLProperty> (CGFloat fs) {
+        self.titleLabel.font = [UIFont fontWithName:@"PingFang-SC-Medium" size:fs];
+        return self;
+    };
+}
+
+- (id<KLProperty> (^)(CGFloat))kl_fontSizeBold {
+    return ^id<KLProperty> (CGFloat fs) {
+        self.titleLabel.font = [UIFont boldSystemFontOfSize:fs];
         return self;
     };
 }
@@ -87,6 +119,7 @@ const void *contentSpacingKey = "com.kaleo.klkit.contentSpacingKey";
         return self;
     };
 }
+
 
 
 - (void)setLayoutType:(KLBtnLayoutType)layoutType {

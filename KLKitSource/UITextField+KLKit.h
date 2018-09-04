@@ -10,5 +10,5 @@
 #import "KLProperty.h"
 
 @interface UITextField (KLKit) <KLProperty>
-
+- (void)kl_limitTextWithLength:(NSInteger)maxLength outLimit:(void (^)(void))outLimit;
 @end

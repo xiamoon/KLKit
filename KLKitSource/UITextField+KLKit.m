@@ -58,6 +58,31 @@
 }
 
 
+- (void)kl_limitTextWithLength:(NSInteger)maxLength outLimit:(void (^)(void))outLimit {
+    NSString *currentString = self.text;
+    NSString *language = [[UIApplication sharedApplication] textInputMode].primaryLanguage;
+    if ([language isEqualToString:@"zh-Hans"]) {
+        UITextRange *selectedRange = [self markedTextRange];
+        UITextPosition *position = [self positionFromPosition:selectedRange.start offset:0];
+        if (!position) {
+            if (currentString.length > maxLength) {
+                self.text = [currentString substringToIndex:maxLength];
+                if (outLimit) {
+                    outLimit();
+                }
+            }
+        }
+    }else {
+        if (currentString.length > maxLength) {
+            self.text = [currentString substringToIndex:maxLength];
+            if (outLimit) {
+                outLimit();
+            }
+        }
+    }
+}
+
+
 - (UIColor *)_colorFromHexValue:(u_int64_t)hex {
     return [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16)) / 255.0
                            green:((float)((hex & 0xFF00) >> 8)) / 255.0

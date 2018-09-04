@@ -12,4 +12,7 @@
 @interface UIButton (KLKit) <KLProperty>
 @property (nonatomic, assign) KLBtnLayoutType layoutType;
 @property (nonatomic, assign) CGFloat contentSpacing;
+
++ (UIButton *)customButton;
+
 @end
