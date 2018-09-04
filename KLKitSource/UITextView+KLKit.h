@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KLProperty.h"
 
-@interface UITextView (KLKit)
+@interface UITextView (KLKit) <KLProperty>
 
 - (void)kl_limitTextWithLength:(NSInteger)maxLength outLimit:(void(^)(void))outLimit;
 

@@ -52,7 +52,9 @@
     // UITableView
     UITableView *tableView = [UITableView tableViewWithStyle:UITableViewStylePlain];
     tableView.kl_default.kl_frame(0, 400, 375, 220).kl_separatorColor([UIColor purpleColor]).kl_addToView(self.view);
-    tableView.kl_numberOfSections = 2;
+    tableView.kl_numberOfSections = ^NSInteger{
+        return 2;
+    };
     tableView.kl_numberOfRows = ^NSInteger(NSInteger section) {
         if (section == 0) {
             return 2;

@@ -21,6 +21,5 @@
 #import "NSString+KLKit.h"
 #import "NSArray+KLKit.h"
 #import "NSDictionary+KLKit.h"
-#import "YYTextView+KLKit.h"
 
 #endif /* KLKit_h */

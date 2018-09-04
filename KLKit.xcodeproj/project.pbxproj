@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5410A1D8213E8390000C96EB /* UIScrollView+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1BB213E838F000C96EB /* UIScrollView+KLKit.m */; };
+		5410A1D9213E8390000C96EB /* UITableView+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1BC213E838F000C96EB /* UITableView+KLKit.m */; };
+		5410A1DA213E8390000C96EB /* UIImageView+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1BE213E838F000C96EB /* UIImageView+KLKit.m */; };
+		5410A1DB213E8390000C96EB /* UIView+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1C3213E838F000C96EB /* UIView+KLKit.m */; };
+		5410A1DC213E8390000C96EB /* UITextField+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1C5213E838F000C96EB /* UITextField+KLKit.m */; };
+		5410A1DD213E8390000C96EB /* NSArray+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1C8213E838F000C96EB /* NSArray+KLKit.m */; };
+		5410A1DE213E8390000C96EB /* UILabel+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1C9213E838F000C96EB /* UILabel+KLKit.m */; };
+		5410A1DF213E8390000C96EB /* UIViewController+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1CA213E838F000C96EB /* UIViewController+KLKit.m */; };
+		5410A1E0213E8390000C96EB /* KLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1CC213E838F000C96EB /* KLButton.m */; };
+		5410A1E1213E8390000C96EB /* NSString+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1CF213E838F000C96EB /* NSString+KLKit.m */; };
+		5410A1E2213E8390000C96EB /* NSDictionary+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1D1213E838F000C96EB /* NSDictionary+KLKit.m */; };
+		5410A1E4213E8390000C96EB /* UITextView+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1D4213E838F000C96EB /* UITextView+KLKit.m */; };
+		5410A1E5213E8390000C96EB /* UIButton+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410A1D6213E838F000C96EB /* UIButton+KLKit.m */; };
 		54F95A082065F1DA0096A3E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A072065F1DA0096A3E7 /* AppDelegate.m */; };
 		54F95A0B2065F1DA0096A3E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A0A2065F1DA0096A3E7 /* ViewController.m */; };
 		54F95A0E2065F1DA0096A3E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F95A0C2065F1DA0096A3E7 /* Main.storyboard */; };
@@ -15,14 +28,6 @@
 		54F95A162065F1DA0096A3E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A152065F1DA0096A3E7 /* main.m */; };
 		54F95A202065F1DB0096A3E7 /* KLKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A1F2065F1DB0096A3E7 /* KLKitTests.m */; };
 		54F95A2B2065F1DB0096A3E7 /* KLKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A2A2065F1DB0096A3E7 /* KLKitUITests.m */; };
-		54F95A3A2065F23B0096A3E7 /* UIView+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A392065F23B0096A3E7 /* UIView+KLKit.m */; };
-		54F95A3D206604FB0096A3E7 /* UILabel+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A3C206604FB0096A3E7 /* UILabel+KLKit.m */; };
-		54F95A41206621C80096A3E7 /* UIButton+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A40206621C80096A3E7 /* UIButton+KLKit.m */; };
-		54F95A44206649A00096A3E7 /* UIImageView+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A43206649A00096A3E7 /* UIImageView+KLKit.m */; };
-		54F95A47206649B70096A3E7 /* UITextField+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A46206649B70096A3E7 /* UITextField+KLKit.m */; };
-		54F95A4A206649C90096A3E7 /* UIScrollView+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A49206649C90096A3E7 /* UIScrollView+KLKit.m */; };
-		54F95A4D206649D60096A3E7 /* UITableView+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A4C206649D60096A3E7 /* UITableView+KLKit.m */; };
-		54F95A50206649F60096A3E7 /* UITextView+KLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F95A4F206649F60096A3E7 /* UITextView+KLKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5410A1BA213E838F000C96EB /* NSString+KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KLKit.h"; sourceTree = "<group>"; };
+		5410A1BB213E838F000C96EB /* UIScrollView+KLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KLKit.m"; sourceTree = "<group>"; };
+		5410A1BC213E838F000C96EB /* UITableView+KLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+KLKit.m"; sourceTree = "<group>"; };
+		5410A1BD213E838F000C96EB /* KLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLButton.h; sourceTree = "<group>"; };
+		5410A1BE213E838F000C96EB /* UIImageView+KLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KLKit.m"; sourceTree = "<group>"; };
+		5410A1BF213E838F000C96EB /* UIViewController+KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KLKit.h"; sourceTree = "<group>"; };
+		5410A1C0213E838F000C96EB /* NSDictionary+KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KLKit.h"; sourceTree = "<group>"; };
+		5410A1C1213E838F000C96EB /* KLProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLProperty.h; sourceTree = "<group>"; };
+		5410A1C2213E838F000C96EB /* KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLKit.h; sourceTree = "<group>"; };
+		5410A1C3213E838F000C96EB /* UIView+KLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KLKit.m"; sourceTree = "<group>"; };
+		5410A1C4213E838F000C96EB /* UIButton+KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KLKit.h"; sourceTree = "<group>"; };
+		5410A1C5213E838F000C96EB /* UITextField+KLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+KLKit.m"; sourceTree = "<group>"; };
+		5410A1C6213E838F000C96EB /* UITextView+KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+KLKit.h"; sourceTree = "<group>"; };
+		5410A1C8213E838F000C96EB /* NSArray+KLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KLKit.m"; sourceTree = "<group>"; };
+		5410A1C9213E838F000C96EB /* UILabel+KLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KLKit.m"; sourceTree = "<group>"; };
+		5410A1CA213E838F000C96EB /* UIViewController+KLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KLKit.m"; sourceTree = "<group>"; };
+		5410A1CB213E838F000C96EB /* UIImageView+KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KLKit.h"; sourceTree = "<group>"; };
+		5410A1CC213E838F000C96EB /* KLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLButton.m; sourceTree = "<group>"; };
+		5410A1CD213E838F000C96EB /* UITableView+KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+KLKit.h"; sourceTree = "<group>"; };
+		5410A1CE213E838F000C96EB /* UIScrollView+KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KLKit.h"; sourceTree = "<group>"; };
+		5410A1CF213E838F000C96EB /* NSString+KLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KLKit.m"; sourceTree = "<group>"; };
+		5410A1D0213E838F000C96EB /* UIView+KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KLKit.h"; sourceTree = "<group>"; };
+		5410A1D1213E838F000C96EB /* NSDictionary+KLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KLKit.m"; sourceTree = "<group>"; };
+		5410A1D2213E838F000C96EB /* NSArray+KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KLKit.h"; sourceTree = "<group>"; };
+		5410A1D4213E838F000C96EB /* UITextView+KLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+KLKit.m"; sourceTree = "<group>"; };
+		5410A1D5213E838F000C96EB /* UITextField+KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+KLKit.h"; sourceTree = "<group>"; };
+		5410A1D6213E838F000C96EB /* UIButton+KLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KLKit.m"; sourceTree = "<group>"; };
+		5410A1D7213E838F000C96EB /* UILabel+KLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KLKit.h"; sourceTree = "<group>"; };
 		54F95A032065F1DA0096A3E7 /* KLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F95A062065F1DA0096A3E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54F95A072065F1DA0096A3E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,24 +92,6 @@
 		54F95A262065F1DB0096A3E7 /* KLKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F95A2A2065F1DB0096A3E7 /* KLKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLKitUITests.m; sourceTree = "<group>"; };
 		54F95A2C2065F1DB0096A3E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54F95A382065F23B0096A3E7 /* UIView+KLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KLKit.h"; sourceTree = "<group>"; };
-		54F95A392065F23B0096A3E7 /* UIView+KLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KLKit.m"; sourceTree = "<group>"; };
-		54F95A3B206604FB0096A3E7 /* UILabel+KLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+KLKit.h"; sourceTree = "<group>"; };
-		54F95A3C206604FB0096A3E7 /* UILabel+KLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KLKit.m"; sourceTree = "<group>"; };
-		54F95A3E206615A70096A3E7 /* KLProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLProperty.h; sourceTree = "<group>"; };
-		54F95A3F206621C80096A3E7 /* UIButton+KLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+KLKit.h"; sourceTree = "<group>"; };
-		54F95A40206621C80096A3E7 /* UIButton+KLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KLKit.m"; sourceTree = "<group>"; };
-		54F95A42206649A00096A3E7 /* UIImageView+KLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KLKit.h"; sourceTree = "<group>"; };
-		54F95A43206649A00096A3E7 /* UIImageView+KLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KLKit.m"; sourceTree = "<group>"; };
-		54F95A45206649B70096A3E7 /* UITextField+KLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+KLKit.h"; sourceTree = "<group>"; };
-		54F95A46206649B70096A3E7 /* UITextField+KLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+KLKit.m"; sourceTree = "<group>"; };
-		54F95A48206649C90096A3E7 /* UIScrollView+KLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KLKit.h"; sourceTree = "<group>"; };
-		54F95A49206649C90096A3E7 /* UIScrollView+KLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KLKit.m"; sourceTree = "<group>"; };
-		54F95A4B206649D60096A3E7 /* UITableView+KLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+KLKit.h"; sourceTree = "<group>"; };
-		54F95A4C206649D60096A3E7 /* UITableView+KLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+KLKit.m"; sourceTree = "<group>"; };
-		54F95A4E206649F60096A3E7 /* UITextView+KLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+KLKit.h"; sourceTree = "<group>"; };
-		54F95A4F206649F60096A3E7 /* UITextView+KLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+KLKit.m"; sourceTree = "<group>"; };
-		54F95A5120666FAF0096A3E7 /* KLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +119,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5410A1B9213E838F000C96EB /* KLKitSource */ = {
+			isa = PBXGroup;
+			children = (
+				5410A1BA213E838F000C96EB /* NSString+KLKit.h */,
+				5410A1BB213E838F000C96EB /* UIScrollView+KLKit.m */,
+				5410A1BC213E838F000C96EB /* UITableView+KLKit.m */,
+				5410A1BD213E838F000C96EB /* KLButton.h */,
+				5410A1BE213E838F000C96EB /* UIImageView+KLKit.m */,
+				5410A1BF213E838F000C96EB /* UIViewController+KLKit.h */,
+				5410A1C0213E838F000C96EB /* NSDictionary+KLKit.h */,
+				5410A1C1213E838F000C96EB /* KLProperty.h */,
+				5410A1C2213E838F000C96EB /* KLKit.h */,
+				5410A1C3213E838F000C96EB /* UIView+KLKit.m */,
+				5410A1C4213E838F000C96EB /* UIButton+KLKit.h */,
+				5410A1C5213E838F000C96EB /* UITextField+KLKit.m */,
+				5410A1C6213E838F000C96EB /* UITextView+KLKit.h */,
+				5410A1C8213E838F000C96EB /* NSArray+KLKit.m */,
+				5410A1C9213E838F000C96EB /* UILabel+KLKit.m */,
+				5410A1CA213E838F000C96EB /* UIViewController+KLKit.m */,
+				5410A1CB213E838F000C96EB /* UIImageView+KLKit.h */,
+				5410A1CC213E838F000C96EB /* KLButton.m */,
+				5410A1CD213E838F000C96EB /* UITableView+KLKit.h */,
+				5410A1CE213E838F000C96EB /* UIScrollView+KLKit.h */,
+				5410A1CF213E838F000C96EB /* NSString+KLKit.m */,
+				5410A1D0213E838F000C96EB /* UIView+KLKit.h */,
+				5410A1D1213E838F000C96EB /* NSDictionary+KLKit.m */,
+				5410A1D2213E838F000C96EB /* NSArray+KLKit.h */,
+				5410A1D4213E838F000C96EB /* UITextView+KLKit.m */,
+				5410A1D5213E838F000C96EB /* UITextField+KLKit.h */,
+				5410A1D6213E838F000C96EB /* UIButton+KLKit.m */,
+				5410A1D7213E838F000C96EB /* UILabel+KLKit.h */,
+			);
+			path = KLKitSource;
+			sourceTree = "<group>";
+		};
 		54F959FA2065F1DA0096A3E7 = {
 			isa = PBXGroup;
 			children = (
+				5410A1B9213E838F000C96EB /* KLKitSource */,
 				54F95A052065F1DA0096A3E7 /* KLKit */,
 				54F95A1E2065F1DB0096A3E7 /* KLKitTests */,
 				54F95A292065F1DB0096A3E7 /* KLKitUITests */,
@@ -131,24 +182,6 @@
 				54F95A072065F1DA0096A3E7 /* AppDelegate.m */,
 				54F95A092065F1DA0096A3E7 /* ViewController.h */,
 				54F95A0A2065F1DA0096A3E7 /* ViewController.m */,
-				54F95A5120666FAF0096A3E7 /* KLKit.h */,
-				54F95A3E206615A70096A3E7 /* KLProperty.h */,
-				54F95A382065F23B0096A3E7 /* UIView+KLKit.h */,
-				54F95A392065F23B0096A3E7 /* UIView+KLKit.m */,
-				54F95A3B206604FB0096A3E7 /* UILabel+KLKit.h */,
-				54F95A3C206604FB0096A3E7 /* UILabel+KLKit.m */,
-				54F95A3F206621C80096A3E7 /* UIButton+KLKit.h */,
-				54F95A40206621C80096A3E7 /* UIButton+KLKit.m */,
-				54F95A42206649A00096A3E7 /* UIImageView+KLKit.h */,
-				54F95A43206649A00096A3E7 /* UIImageView+KLKit.m */,
-				54F95A45206649B70096A3E7 /* UITextField+KLKit.h */,
-				54F95A46206649B70096A3E7 /* UITextField+KLKit.m */,
-				54F95A48206649C90096A3E7 /* UIScrollView+KLKit.h */,
-				54F95A49206649C90096A3E7 /* UIScrollView+KLKit.m */,
-				54F95A4E206649F60096A3E7 /* UITextView+KLKit.h */,
-				54F95A4F206649F60096A3E7 /* UITextView+KLKit.m */,
-				54F95A4B206649D60096A3E7 /* UITableView+KLKit.h */,
-				54F95A4C206649D60096A3E7 /* UITableView+KLKit.m */,
 				54F95A0C2065F1DA0096A3E7 /* Main.storyboard */,
 				54F95A0F2065F1DA0096A3E7 /* Assets.xcassets */,
 				54F95A112065F1DA0096A3E7 /* LaunchScreen.storyboard */,
@@ -309,17 +342,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54F95A3A2065F23B0096A3E7 /* UIView+KLKit.m in Sources */,
-				54F95A50206649F60096A3E7 /* UITextView+KLKit.m in Sources */,
+				5410A1E0213E8390000C96EB /* KLButton.m in Sources */,
 				54F95A0B2065F1DA0096A3E7 /* ViewController.m in Sources */,
-				54F95A3D206604FB0096A3E7 /* UILabel+KLKit.m in Sources */,
-				54F95A4D206649D60096A3E7 /* UITableView+KLKit.m in Sources */,
+				5410A1D8213E8390000C96EB /* UIScrollView+KLKit.m in Sources */,
+				5410A1DE213E8390000C96EB /* UILabel+KLKit.m in Sources */,
+				5410A1E2213E8390000C96EB /* NSDictionary+KLKit.m in Sources */,
+				5410A1E4213E8390000C96EB /* UITextView+KLKit.m in Sources */,
+				5410A1DA213E8390000C96EB /* UIImageView+KLKit.m in Sources */,
+				5410A1E5213E8390000C96EB /* UIButton+KLKit.m in Sources */,
 				54F95A162065F1DA0096A3E7 /* main.m in Sources */,
+				5410A1D9213E8390000C96EB /* UITableView+KLKit.m in Sources */,
+				5410A1E1213E8390000C96EB /* NSString+KLKit.m in Sources */,
+				5410A1DB213E8390000C96EB /* UIView+KLKit.m in Sources */,
+				5410A1DF213E8390000C96EB /* UIViewController+KLKit.m in Sources */,
 				54F95A082065F1DA0096A3E7 /* AppDelegate.m in Sources */,
-				54F95A41206621C80096A3E7 /* UIButton+KLKit.m in Sources */,
-				54F95A44206649A00096A3E7 /* UIImageView+KLKit.m in Sources */,
-				54F95A4A206649C90096A3E7 /* UIScrollView+KLKit.m in Sources */,
-				54F95A47206649B70096A3E7 /* UITextField+KLKit.m in Sources */,
+				5410A1DC213E8390000C96EB /* UITextField+KLKit.m in Sources */,
+				5410A1DD213E8390000C96EB /* NSArray+KLKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
